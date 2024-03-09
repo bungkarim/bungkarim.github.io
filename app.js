@@ -12,3 +12,7 @@ var swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+document.getElementById("gift-btn").addEventListener("click", function() {
+  window.location.href = "hadiahTirah/index.html";
+})
